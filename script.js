@@ -10,5 +10,5 @@ function removeArticles(touristSpots) {
 
 
 
-   console.log (filteredSpots.map(removeArticles)
+   console.log (touristSpots.map(removeArticles)
     .sort((a, b) => a.localeCompare(b));)
