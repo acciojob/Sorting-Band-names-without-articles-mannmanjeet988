@@ -21,7 +21,7 @@ function sortBandNames(bandNames) {
   const sortedNames = cleanedNames.sort((a, b) => a.localeCompare(b));
 
   // Display the sorted names in the HTML page
-  const ulElement = document.getElementById('band');
+  const ulElement = document.getElementById('bands');
   sortedNames.forEach(name => {
     const liElement = document.createElement('li');
     liElement.textContent = name;
